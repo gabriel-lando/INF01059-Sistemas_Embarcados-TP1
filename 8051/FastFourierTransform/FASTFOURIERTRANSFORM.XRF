@@ -1,0 +1,82 @@
+MS-DOS LX51 CODE BANKING LINKER/LOCATOR V06.14.12.087
+
+
+INTER-MODULE CROSS-REFERENCE LISTING
+------------------------------------
+
+          NAME. . . . . . . . USAGE   MODULE NAMES
+          ----------------------------------------
+          ?ADDIEEE  . . . . . CODE    [ADSUIEEE]:  TOOLTRIG, TOOLMATH, FASTFOURIERTRANSFORM
+          ?ADDIEEEX . . . . . CODE    [ADSUIEEE]: 
+          ?CAST_IEEE  . . . . CODE    [CONVIEEE]:  TOOLTRIG
+          ?cos  . . . . . . . CODE    [SINIEEE]: 
+          ?CV_CHAR_IEEE . . . CODE    [CONVIEEE]:  TOOLTRIG
+          ?CV_IEEE_LS . . . . CODE    [CONVIEEE]:  TOOLTRIG
+          ?CV_IEEE_LU . . . . CODE    [CONVIEEE]: 
+          ?CV_LS_IEEE . . . . CODE    [CONVIEEE]:  FASTFOURIERTRANSFORM
+          ?CV_LU_IEEE . . . . CODE    [CONVIEEE]: 
+          ?C_CPY  . . . . . . CODE    [STRCPY]: 
+          ?C_IMUL . . . . . . CODE    [MULS]:  FASTFOURIERTRANSFORM
+          ?C_IMULX  . . . . . CODE    [MULS]: 
+          ?C_MEMCPY . . . . . CODE    [MEMCPY]:  FASTFOURIERTRANSFORM
+          ?C_START3 . . . . . CODE    [C3S]:  FASTFOURIERTRANSFORM
+          ?DIVIIEEE . . . . . CODE    [DIVIIEEE]:  SINIEEE, FASTFOURIERTRANSFORM
+          ?DIVIIEEEX  . . . . CODE    [DIVIIEEE]: 
+          ?FCTSER_ASM . . . . CODE    [TOOLMATH]: 
+          ?FCTSER_ASM_CARRE . CODE    [TOOLMATH]:  SINIEEE
+          ?memcpy . . . . . . CODE    [MEMCPY]: 
+          ?MULTIEEE . . . . . CODE    [MULTIEEE]:  TOOLTRIG, TOOLMATH, SINIEEE, FASTFOURIERTRANSFORM
+          ?MULTIEEEX  . . . . CODE    [MULTIEEE]: 
+          ?sin  . . . . . . . CODE    [SINIEEE]:  FASTFOURIERTRANSFORM
+          ?strcpy . . . . . . CODE    [STRCPY]: 
+          ?SUBBIEEE . . . . . CODE    [ADSUIEEE]:  FASTFOURIERTRANSFORM
+          ?SUBBIEEEX  . . . . CODE    [ADSUIEEE]: 
+          ?tan  . . . . . . . CODE    [SINIEEE]: 
+          ?TRIGO_CONVERT  . . CODE    [TOOLTRIG]:  SINIEEE
+          ?_fft?BYTE  . . . . DATA    [FASTFOURIERTRANSFORM]: 
+          HPD_ADDR  . . . . . DATA    [HPD]:  C3S
+          IDATALEN  . . . . . NUMBER  [_C_IDATALEN]:  C3S
+          IPGN0?C . . . . . . CODE    [IPGN0]:  IPGN0_INC, FASTFOURIERTRANSFORM
+          IPGN0INC?C  . . . . CODE    [IPGN0_INC]:  FASTFOURIERTRANSFORM
+          IPGN1?C . . . . . . CODE    [IPGN1]:  IPGN1_INC, FASTFOURIERTRANSFORM
+          IPGN1INC?C  . . . . CODE    [IPGN1_INC]:  FASTFOURIERTRANSFORM
+          main  . . . . . . . CODE    [FASTFOURIERTRANSFORM]:  C3S
+          MV4_CS2SK?C . . . . CODE    [MV_CS2SK4]:  TOOLTRIG
+          MV4_RG2G1?C . . . . CODE    [MV_RG2G14]:  FASTFOURIERTRANSFORM
+          MV4_RG2SK?C . . . . CODE    [MV_RG2SK4]:  TOOLTRIG, TOOLMATH, SINIEEE
+          MV4_XD2RG?C . . . . CODE    [MV_XD2RG4]:  DIVIIEEE, MULTIEEE, ADSUIEEE
+          MV_CODE0?C  . . . . CODE    [MV_CODE0]:  MV_PTR2L0
+          MV_CODE1?C  . . . . CODE    [MV_CODE1]:  MV_PTR2L1
+          MV_IDATA0?C . . . . CODE    [MV_IDATA0]:  MV_PTR2L0
+          MV_IDATA1?C . . . . CODE    [MV_IDATA1]:  MV_PTR2L1
+          MV_PDATA0?C . . . . CODE    [MV_PDATA0]:  MV_PTR2L0
+          MV_PDATA1?C . . . . CODE    [MV_PDATA1]:  MV_PTR2L1
+          MV_PTR2L0?C . . . . CODE    [MV_PTR2L0]:  FASTFOURIERTRANSFORM
+          MV_PTR2L1?C . . . . CODE    [MV_PTR2L1]:  FASTFOURIERTRANSFORM
+          MV_XDATA0?C . . . . CODE    [MV_XDATA0]:  MV_PTR2L0
+          MV_XDATA1?C . . . . CODE    [MV_XDATA1]:  MV_PTR2L1
+          STACKPREP4?C  . . . CODE    [MV_STK4]:  TOOLTRIG
+          STACKPREP?C . . . . CODE    [MV_STK4]: 
+          TIM1_INIT . . . . . NUMBER  [** UNRESOLVED **]:
+          XPGN0?C . . . . . . CODE    [XPGN0]:  XPGN0_INC, FASTFOURIERTRANSFORM
+          XPGN0INC?C  . . . . CODE    [XPGN0_INC]:  FASTFOURIERTRANSFORM
+          XPGN1?C . . . . . . CODE    [XPGN1]:  MV_RG2G14, XPGN1_DEC, XPGN1_INC, FASTFOURIERTRANSFORM
+          XPGN1DEC?C  . . . . CODE    [XPGN1_DEC]:  FASTFOURIERTRANSFORM
+          XPGN1INC?C  . . . . CODE    [XPGN1_INC]:  MV_RG2G14, FASTFOURIERTRANSFORM
+          XSTACKLEN . . . . . NUMBER  [** UNRESOLVED **]:
+          _END_OP_IEEE?C  . . CODE    [TOOLIEEE]:  DIVIIEEE, MULTIEEE, ADSUIEEE
+          _fft  . . . . . . . CODE    [FASTFOURIERTRANSFORM]: 
+          _INITP2?  . . . . . NUMBER  [_C_IDATALEN]:  C3S
+          _MV_CS2SK_0 . . . . CODE    [MV_CS2SK4]: 
+          _STACK  . . . . . . IDATA   [FASTFOURIERTRANSFORM]:  C3S
+          __IEEE_END_RESULT__ CODE    [TOOLIEEE]:  DIVIIEEE, MULTIEEE, ADSUIEEE
+          __IEEE_GET_EXP_SET_MCODE    [TOOLIEEE]:  DIVIIEEE, MULTIEEE, ADSUIEEE
+          __IEEE_RESULT_NULL__CODE    [TOOLIEEE]:  DIVIIEEE, MULTIEEE, ADSUIEEE
+          __IEEE_TRAP_DEB__ . CODE    [TOOLIEEE]:  DIVIIEEE, MULTIEEE, ADSUIEEE
+          __IEEE_TRAP_NAN__ . CODE    [TOOLIEEE]:  DIVIIEEE, MULTIEEE, ADSUIEEE
+          __LOCAL_END__ . . . CODE    [SHARING]:  STRCPY
+          __NULL_POINTER__  . CODE    [SHARING]:  STRCPY
+          __PGN0_INC__  . . . CODE    [PGN0_INC]:  IPGN0_INC, XPGN0_INC
+          __PGN1_DEC__  . . . CODE    [PGN1_DEC]:  XPGN1_DEC
+          __PGN1_INC__  . . . CODE    [PGN1_INC]:  IPGN1_INC, XPGN1_INC
+          __STRCPY_NXT1__ . . CODE    [STRCPY]:  MEMCPY

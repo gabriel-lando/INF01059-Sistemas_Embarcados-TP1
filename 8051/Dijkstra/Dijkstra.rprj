@@ -1,0 +1,4 @@
+
+<Project Header="Project 'Dijkstra'" Path=".\Dijkstra.rprj" Project="Yes" OutputFile="" sate="98" ActiveApp="Dijkstra" >
+	<ApplicationBuild Header="Dijkstra" Extern=".\Dijkstra.rapp" Path=".\Dijkstra.rapp" OutputFile=".\Dijkstra.aof" sate="96" />
+</Project>

@@ -1,0 +1,33 @@
+<?xml version="1.0" ?>
+<Table>
+  <Row>
+    <Column>--</Column>
+    <Column>BUBBLESORT</Column>
+    <Column>C:\DOCUMENTS AND SETTINGS\EMB\DESKTOP\INF01059-TRABALHOPRATICO1\8051\BUBBLESORT\BUBBLESORT.OBJ</Column>
+  </Row>
+  <Row>
+    <Column>--</Column>
+    <Column>C3S</Column>
+    <Column>C:\Arquivos de programas\Raisonance\Ride\Lib\51\RC51S.LIB</Column>
+  </Row>
+  <Row>
+    <Column>--</Column>
+    <Column>STRCPY</Column>
+    <Column>C:\Arquivos de programas\Raisonance\Ride\Lib\51\RC51S.LIB</Column>
+  </Row>
+  <Row>
+    <Column>--</Column>
+    <Column>SHARING</Column>
+    <Column>C:\Arquivos de programas\Raisonance\Ride\Lib\51\RC51S.LIB</Column>
+  </Row>
+  <Row>
+    <Column>--</Column>
+    <Column>HPD</Column>
+    <Column>C:\Arquivos de programas\Raisonance\Ride\Lib\51\RC51S.LIB</Column>
+  </Row>
+  <Row>
+    <Column>--</Column>
+    <Column>_C_IDATALEN</Column>
+    <Column>C:\Arquivos de programas\Raisonance\Ride\Lib\51\RC51S.LIB</Column>
+  </Row>
+</Table>

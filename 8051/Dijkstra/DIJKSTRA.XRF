@@ -1,0 +1,45 @@
+MS-DOS LX51 CODE BANKING LINKER/LOCATOR V06.14.12.087
+
+
+INTER-MODULE CROSS-REFERENCE LISTING
+------------------------------------
+
+          NAME. . . . . . . . USAGE   MODULE NAMES
+          ----------------------------------------
+          ?C_CMPL . . . . . . CODE    [CMPL]:  DIJKSTRA
+          ?C_CMPLS  . . . . . CODE    [CMPL]: 
+          ?C_CPY  . . . . . . CODE    [STRCPY]:  DIJKSTRA
+          ?C_IMUL . . . . . . CODE    [MULS]:  DIJKSTRA
+          ?C_IMULX  . . . . . CODE    [MULS]: 
+          ?C_LADD . . . . . . CODE    [LADD]:  DIJKSTRA
+          ?C_LOP  . . . . . . CODE    [COML]:  LADD
+          ?C_MEMCPY . . . . . CODE    [MEMCPY]:  DIJKSTRA
+          ?C_START3 . . . . . CODE    [C3S]:  DIJKSTRA
+          ?memcpy . . . . . . CODE    [MEMCPY]: 
+          ?strcpy . . . . . . CODE    [STRCPY]: 
+          HPD_ADDR  . . . . . DATA    [HPD]:  C3S
+          IDATALEN  . . . . . NUMBER  [_C_IDATALEN]:  C3S
+          IPGN0?C . . . . . . CODE    [IPGN0]:  MV_G12RG4
+          IPGN1?C . . . . . . CODE    [IPGN1]:  MV_G12RG4, IPGN1_INC, DIJKSTRA
+          IPGN1INC?C  . . . . CODE    [IPGN1_INC]:  DIJKSTRA
+          main  . . . . . . . CODE    [DIJKSTRA]:  C3S
+          MV4_G12RG?C . . . . CODE    [MV_G12RG4]:  DIJKSTRA
+          MV_CODE1?C  . . . . CODE    [MV_CODE1]:  MV_PTR2L1
+          MV_IDATA1?C . . . . CODE    [MV_IDATA1]:  MV_PTR2L1
+          MV_PDATA1?C . . . . CODE    [MV_PDATA1]:  MV_PTR2L1
+          MV_PTR2L1?C . . . . CODE    [MV_PTR2L1]:  DIJKSTRA
+          MV_XDATA1?C . . . . CODE    [MV_XDATA1]:  MV_PTR2L1
+          RST_STK4?C  . . . . CODE    [RSTSTK4]:  CMPL, LADD
+          TIM1_INIT . . . . . NUMBER  [** UNRESOLVED **]:
+          XPGN1?C . . . . . . CODE    [XPGN1]:  XPGN1_DEC, DIJKSTRA
+          XPGN1DEC?C  . . . . CODE    [XPGN1_DEC]:  DIJKSTRA
+          XSTACKLEN . . . . . NUMBER  [** UNRESOLVED **]:
+          _Dijkstra . . . . . CODE    [DIJKSTRA]: 
+          _INITP2?  . . . . . NUMBER  [_C_IDATALEN]:  C3S
+          _MV4_G12RG_0  . . . CODE    [MV_G12RG4]: 
+          _STACK  . . . . . . IDATA   [DIJKSTRA]:  C3S
+          __LOCAL_END__ . . . CODE    [SHARING]:  STRCPY
+          __NULL_POINTER__  . CODE    [SHARING]:  STRCPY
+          __PGN1_DEC__  . . . CODE    [PGN1_DEC]:  XPGN1_DEC
+          __PGN1_INC__  . . . CODE    [PGN1_INC]:  IPGN1_INC
+          __STRCPY_NXT1__ . . CODE    [STRCPY]:  MEMCPY

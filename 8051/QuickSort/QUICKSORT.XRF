@@ -1,0 +1,38 @@
+MS-DOS LX51 CODE BANKING LINKER/LOCATOR V06.14.12.087
+
+
+INTER-MODULE CROSS-REFERENCE LISTING
+------------------------------------
+
+          NAME. . . . . . . . USAGE   MODULE NAMES
+          ----------------------------------------
+          ?C_CPY  . . . . . . CODE    [STRCPY]:  QUICKSORT
+          ?C_SIDIV  . . . . . CODE    [DIVS]:  QUICKSORT
+          ?C_START3 . . . . . CODE    [C3S]:  QUICKSORT
+          ?C_UIDIV  . . . . . CODE    [DIVS]: 
+          ?strcpy . . . . . . CODE    [STRCPY]: 
+          ?_quick_sort?BYTE . DATA    [QUICKSORT]: 
+          CPL_R4R5  . . . . . CODE    [DIVS]: 
+          CPL_R6R7  . . . . . CODE    [DIVS]: 
+          DIV_2 . . . . . . . CODE    [DIVS]: 
+          HPD_ADDR  . . . . . DATA    [HPD]:  C3S
+          IDATALEN  . . . . . NUMBER  [_C_IDATALEN]:  C3S
+          main  . . . . . . . CODE    [QUICKSORT]:  C3S
+          MV_CODE1?C  . . . . CODE    [MV_CODE1]:  MV_PTR2I1
+          MV_IDATA1?C . . . . CODE    [MV_IDATA1]:  MV_PTR2I1
+          MV_PDATA1?C . . . . CODE    [MV_PDATA1]:  MV_PTR2I1
+          MV_PTR2I1?C . . . . CODE    [MV_PTR2I1]:  QUICKSORT
+          MV_XDATA1?C . . . . CODE    [MV_XDATA1]:  MV_PTR2I1
+          TIM1_INIT . . . . . NUMBER  [** UNRESOLVED **]:
+          XPGN0?C . . . . . . CODE    [XPGN0]:  XPGN0_DEC, XPGN0_INC, QUICKSORT
+          XPGN0DEC?C  . . . . CODE    [XPGN0_DEC]:  QUICKSORT
+          XPGN0INC?C  . . . . CODE    [XPGN0_INC]:  QUICKSORT
+          XSTACKLEN . . . . . NUMBER  [** UNRESOLVED **]:
+          _INITP2?  . . . . . NUMBER  [_C_IDATALEN]:  C3S
+          _quick_sort . . . . CODE    [QUICKSORT]: 
+          _STACK  . . . . . . IDATA   [QUICKSORT]:  C3S
+          __LOCAL_END__ . . . CODE    [SHARING]:  STRCPY
+          __NULL_POINTER__  . CODE    [SHARING]:  STRCPY
+          __PGN0_DEC__  . . . CODE    [PGN0_DEC]:  XPGN0_DEC
+          __PGN0_INC__  . . . CODE    [PGN0_INC]:  XPGN0_INC
+          __STRCPY_NXT1__ . . CODE    [STRCPY]: 

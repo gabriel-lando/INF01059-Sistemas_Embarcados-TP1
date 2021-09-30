@@ -1,0 +1,34 @@
+MS-DOS LX51 CODE BANKING LINKER/LOCATOR V06.14.12.087
+
+
+INTER-MODULE CROSS-REFERENCE LISTING
+------------------------------------
+
+          NAME. . . . . . . . USAGE   MODULE NAMES
+          ----------------------------------------
+          ?C_CPY  . . . . . . CODE    [STRCPY]:  MULTMATRIZ
+          ?C_IMUL . . . . . . CODE    [MULS]:  MULTMATRIZ
+          ?C_IMULX  . . . . . CODE    [MULS]: 
+          ?C_START3 . . . . . CODE    [C3S]:  MULTMATRIZ
+          ?strcpy . . . . . . CODE    [STRCPY]: 
+          ?_multiply?BYTE . . DATA    [MULTMATRIZ]: 
+          HPD_ADDR  . . . . . DATA    [HPD]:  C3S
+          IDATALEN  . . . . . NUMBER  [_C_IDATALEN]:  C3S
+          IPGN0?C . . . . . . CODE    [IPGN0]:  MULTMATRIZ
+          main  . . . . . . . CODE    [MULTMATRIZ]:  C3S
+          MV_CODE0?C  . . . . CODE    [MV_CODE0]:  MV_PTR2I0
+          MV_IDATA0?C . . . . CODE    [MV_IDATA0]:  MV_PTR2I0
+          MV_PDATA0?C . . . . CODE    [MV_PDATA0]:  MV_PTR2I0
+          MV_PTR2I0?C . . . . CODE    [MV_PTR2I0]:  MULTMATRIZ
+          MV_XDATA0?C . . . . CODE    [MV_XDATA0]:  MV_PTR2I0
+          TIM1_INIT . . . . . NUMBER  [** UNRESOLVED **]:
+          XPGN1?C . . . . . . CODE    [XPGN1]:  XPGN1_INC, MULTMATRIZ
+          XPGN1INC?C  . . . . CODE    [XPGN1_INC]:  MULTMATRIZ
+          XSTACKLEN . . . . . NUMBER  [** UNRESOLVED **]:
+          _INITP2?  . . . . . NUMBER  [_C_IDATALEN]:  C3S
+          _multiply . . . . . CODE    [MULTMATRIZ]: 
+          _STACK  . . . . . . IDATA   [MULTMATRIZ]:  C3S
+          __LOCAL_END__ . . . CODE    [SHARING]:  STRCPY
+          __NULL_POINTER__  . CODE    [SHARING]:  STRCPY
+          __PGN1_INC__  . . . CODE    [PGN1_INC]:  XPGN1_INC
+          __STRCPY_NXT1__ . . CODE    [STRCPY]: 

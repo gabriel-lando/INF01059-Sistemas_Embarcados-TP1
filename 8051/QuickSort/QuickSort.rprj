@@ -1,0 +1,4 @@
+
+<Project Header="Project 'QuickSort'" Path=".\QuickSort.rprj" Project="Yes" OutputFile="" sate="98" ActiveApp="QuickSort" >
+	<ApplicationBuild Header="QuickSort" Extern=".\QuickSort.rapp" Path=".\QuickSort.rapp" OutputFile=".\QuickSort.aof" sate="96" />
+</Project>

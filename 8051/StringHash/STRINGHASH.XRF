@@ -1,0 +1,27 @@
+MS-DOS LX51 CODE BANKING LINKER/LOCATOR V06.14.12.087
+
+
+INTER-MODULE CROSS-REFERENCE LISTING
+------------------------------------
+
+          NAME. . . . . . . . USAGE   MODULE NAMES
+          ----------------------------------------
+          ?C_CPY  . . . . . . CODE    [STRCPY]:  STRINGHASH
+          ?C_LADD . . . . . . CODE    [LADD]:  STRINGHASH
+          ?C_LOP  . . . . . . CODE    [COML]:  LADD
+          ?C_LSHL . . . . . . CODE    [SHIFT_L]:  STRINGHASH
+          ?C_START3 . . . . . CODE    [C3S]:  STRINGHASH
+          ?strcpy . . . . . . CODE    [STRCPY]: 
+          HPD_ADDR  . . . . . DATA    [HPD]:  C3S
+          IDATALEN  . . . . . NUMBER  [_C_IDATALEN]:  C3S
+          IPGN1?C . . . . . . CODE    [IPGN1]:  STRINGHASH
+          main  . . . . . . . CODE    [STRINGHASH]:  C3S
+          RST_STK4?C  . . . . CODE    [RSTSTK4]:  LADD
+          TIM1_INIT . . . . . NUMBER  [** UNRESOLVED **]:
+          XSTACKLEN . . . . . NUMBER  [** UNRESOLVED **]:
+          _hash . . . . . . . CODE    [STRINGHASH]: 
+          _INITP2?  . . . . . NUMBER  [_C_IDATALEN]:  C3S
+          _STACK  . . . . . . IDATA   [STRINGHASH]:  C3S
+          __LOCAL_END__ . . . CODE    [SHARING]:  STRCPY
+          __NULL_POINTER__  . CODE    [SHARING]:  STRCPY
+          __STRCPY_NXT1__ . . CODE    [STRCPY]: 

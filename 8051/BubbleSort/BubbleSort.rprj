@@ -1,0 +1,4 @@
+
+<Project Header="Project 'BubbleSort'" Path=".\BubbleSort.rprj" Project="Yes" OutputFile="" sate="98" ActiveApp="BubbleSort" >
+	<ApplicationBuild Header="BubbleSort" Extern=".\BubbleSort.rapp" Path=".\BubbleSort.rapp" OutputFile=".\BubbleSort.aof" sate="96" />
+</Project>

@@ -1,0 +1,4 @@
+
+<Project Header="Project 'StringHash'" Path=".\StringHash.rprj" Project="Yes" OutputFile="" sate="98" ActiveApp="StringHash" >
+	<ApplicationBuild Header="StringHash" Extern=".\StringHash.rapp" Path=".\StringHash.rapp" OutputFile=".\StringHash.aof" sate="96" />
+</Project>

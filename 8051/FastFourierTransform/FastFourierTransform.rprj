@@ -1,0 +1,4 @@
+
+<Project Header="Project 'FastFourierTransform'" Path=".\FastFourierTransform.rprj" Project="Yes" OutputFile="" sate="98" ActiveApp="FastFourierTransform" >
+	<ApplicationBuild Header="FastFourierTransform" Extern=".\FastFourierTransform.rapp" Path=".\FastFourierTransform.rapp" OutputFile=".\FastFourierTransform.aof" sate="96" />
+</Project>
